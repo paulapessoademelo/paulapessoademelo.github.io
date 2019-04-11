@@ -1,0 +1,74 @@
+WEB DESIGN: HTML
+STUDENT: Paula Pessoa De Melo
+GITHUB URL: http://paulapessoademelo.github.io/resume.html
+
+GRADE: 10/10
+
+Be sure you review the these and make corrections to your HTML document. You will use `resume.html` again for the CSS exercises. If the mistakes noted here appear in the CSS exercise, there will be a deduction!
+
+CORRECTIONS:
+
+- Incorrect use of headings (h1-h6)
+- Decorative characters (i.e. bullets (•), pipes (|), etc.)
+- Image format is incorrect
+- Broken links
+- Open tags
+- Code not properly indented, nested
+
+
+NOTES:
+
+Very solid job. Some things to fine-tune, but you have done very well here. Hope this feedback helps.
+
+- The use of headings is correct most of the time. The one spot it strays is when you jump from h3 to h5. You need to use the tags in order. So in this case, it would be h4:
+
+<h3 id="edu">Higher Education</h3>
+<h4>Masters (M.F.A) in Motion Pictures</h4>
+
+- The decorative characters ... I notice you're using dashes to break up content. Instead of using the dashes, just use tags to separate this content. Using education as an example, instead of what you have, you might try this:
+
+<h4>Masters (M.F.A) in Motion Pictures</h4>
+<p>University of Miami</p>
+<p>Miami, FL</p>
+<p>Present</p>
+
+(If you wanted, you could even make University of Miami emphasized or strongly emphasized.)
+
+The idea here is that, yes, all the elements of that information (your MFA) are related, but they are separate bits of information and should be marked up as such. To what degree (i.e. using strong, em, a, etc.) might vary, but again, each piece of information should be different.
+
+- I think you may also have the structural tags reversed. Your *sections* would be Professional Experience, Awards, Languages, etc. -- everything you have linked to. Within those sections, if the content has multiple entries, then you would use article. I can best demonstrate this with your education content:
+
+<section>
+	<h3 id="edu">Higher Education</h3>
+
+	<article>
+		<h4>Masters (M.F.A) in Motion Pictures</h4>
+		<p>University of Miami</p>
+		<p>Miami, FL</p>
+		<p>Present</p>
+	</article>
+
+	<article>
+		<h4>Bachelors in Law</h4>
+		<p>Catholic University of Pernambuco</p>
+		<p>Brazil</p>
+		<p>Dates?</p>
+		<ul>
+		  <li>Member of Brazilian Bar Association</li>
+		</ul>
+	</article>
+</section>
+
+See? :)
+
+- I saw in your git log that you changed the image format from jpg to gif. Oops! You had it correct the first time! :) Gifs are for logos, graphics. JPEGs are for photos like you have on the page. So the fix for this is easy -- just use the .jpg file you have in the repo. (But before you do so, change the filename so it doesn't end with JPG, rather jpg -- write code, filenames in lowercase.)
+
+- The only broken link is the telephone number. You were very close on this -- and nice job attempting it. The fix is to preface your number with "tel:" ... For instance:
+
+<a href="tel:13058509812">+1(305)850-9812</a>
+
+- With the links in address, you still want to mark these up as more than just links. Links should not stand alone. Paragraph would be fine here, so:
+
+<p><a href="tel:13058509812">+1(305)850-9812</a></p>
+
+- I noticed the </body> tag is missing. The validator won't pick this up because technically it is not required in HTML5. However, for the purposes of backward compatibility, you want to make sure the </body> is there.
