@@ -123,12 +123,13 @@ p {
 
   .masthead{
     grid-area: masthead;
+    background: url(../image/simba.jpg);
 
   }
 
   .masthead aside img{
-    width: 100%;
-    background: url(../image/simba.jpg) no-repeat;
+    width: 300%;
+    /* background: url(image/simba.jpg); */
   }
 
   .sidebar1{
