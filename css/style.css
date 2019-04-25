@@ -42,7 +42,7 @@ h1{
   position: center;
   display: flex;
   padding: 5%;
-  color: rgb(255,255,255);
+  /* color: rgb(255,255,255); */
   font-size: 92px;
   margin: 0 auto;
   margin-top: 10px;
@@ -122,13 +122,13 @@ p {
   }
 
   .masthead{
-    grid-area: masterhead;
-
+    grid-area: masthead;
 
   }
 
   .masthead aside img{
-    width: 100%
+    width: 100%;
+    background: url(../image/simba.jpg) no-repeat;
   }
 
   .sidebar1{
@@ -136,6 +136,13 @@ p {
     border: 5px solid #ccc;
     text-align: center;
 
+  }
+  .sidebar1 aside{
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
   }
 
 
