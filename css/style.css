@@ -10,22 +10,28 @@ nav ul {
 }
 
 nav li {
+  font-family: "miller-banner",serif;
+  font-style: italic;
+  font-weight: 400;
   display: block;
+  margin: .5em;
+  color: rgb(16,16,16);
   /* margin-right: 80px; */
   font-size: 18px;
   /* border: 1px; */
   /* border-radius: .5em; */
   /* padding: .5em 1em; */
-  margin: .5em;
-  font: rgb(255,255,255);
-   background-color: #ccc;
+
+  /* background-color: #ccc; */
+
 }
 
 nav a {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  color: #1a0d00;
+  color: rgb(16,16,16);
+  /* color: #1a0d00; */
 }
 
  a:hover {
@@ -39,22 +45,26 @@ a {
 }
 
 h1{
-  font-family: "Rajdhani", sans-serif;
+  font-family: "miller-banner",serif;
+  font-style: italic;
+  font-weight: 400;
   position: flex;
-  /* display: flex; */
-  padding: 5%;
-  color: rgb(255,255,255);
-  font-size: 26px;
-  margin: 0 auto;
-  margin-top: 10px;
+  display: flex;
+  padding: 0%;
+  color: rgb(16,16,16);
+  font-size: 36px;
+  margin: 5em;
+  margin-top: 1px;
+  margin-bottom: 20px;
+
 
  }
 
- h2 {
-   font-family: "Rajdhani", sans-serif;
-   position: left;
-   margin: 40px;
-   width: 4px;
+ /* h2 { */
+   /* font-family: "Rajdhani", sans-serif; */
+   /* position: left; */
+   /* margin: 40px; */
+   /* width: 4px; */
    /* padding: -5%; */
  }
 
@@ -90,7 +100,7 @@ address{
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-} */ */
+} */
 
 
  p {
@@ -103,7 +113,8 @@ address{
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: rgb(16,16,16);
+  background-image: url(images/simba.jpg);
+  /* background-color: rgb(16,16,16); */
   min-width: 33%
   grid-template-columns: 2fr,4fr;
   grid-gap: 20px;
@@ -116,7 +127,7 @@ address{
     grid-template-columns: 300px 2fr;
     grid-template-rows: repeat, (4, auto);
     grid-template-areas:
-    "masthead     content"
+    "masthead     masthead"
     "sidebar1     content"
     "sidebar1     content";
 
@@ -125,19 +136,19 @@ address{
 
   .masthead{
     grid-area: masthead;
-    background: url(images/simba.jpg);
+    /* background: url(images/simba.jpg); */
     /* background: url(../image/simba.jpg); */
 
   }
 
   .masthead aside img{
-    width: 100%;
+    width: 50%;
     /* background: url(image/simba.jpg); */
   }
 
   .sidebar1{
     grid-area: sidebar1;
-    border: 5px solid #ccc;
+    /* border: 5px solid #ccc; */
     text-align: center;
 
   }
@@ -156,7 +167,7 @@ address{
   /* padding: 2%;
 } */
 
-article{
+/* article{ */
   background-color: #ccc;
   padding: 10px;
 }
