@@ -9,13 +9,14 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
+  display: block;
   margin-right: 80px;
   font-size: 21px
   border: 1px solid;
   border-radius: .5em;
   padding: .5em 1em;
   margin: .5em;
+  font: rgb(250,250,250);
   background-color: #ccc;
 }
 
@@ -37,11 +38,11 @@ a {
 }
 
 h1{
-  /* position: relative; */
+  position: center;
   display: flex;
   padding: 5%;
   font: rgb(250,250,250);
-  font-size: 35px;
+  font-size: 48px;
  }
 
  h2 {
@@ -95,18 +96,33 @@ p {
 
   width: 960px;
   margin: 0 auto;
-  /* background-color: orange; */
-  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(16,16,16);
+  min-width: 33%
+  grid-template-columns: 2fr,4fr;
+  grid-gap: 20px;
+
   }
 
-#container{
-  width: 960px;
-  float:right;
-  background: #ccc;
-  border: 2px;
-  margin-bottom: 15px;
-  padding: 60px;
-}
+  .grid{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: repeat, (4, auto);
+    grid-template-areas:
+    "masthead     masthead"
+    "sidebar1     content"
+    "sidebar2     content";
+
+
+  }
+
+  .masthead{
+    grid-area: masterhead;
+
+  }
+
 
 section {
   float: left;
@@ -119,7 +135,7 @@ article{
   padding: 10px;
 }
 
-#container:right {
+ /* #container:right { */
   content: section,h3,h4;
   float: right;
   width: auto;
@@ -129,7 +145,7 @@ article{
   border: 2px;
   padding: 20px;
   margin: auto;
-}
+} */
 
 
 h3 {
