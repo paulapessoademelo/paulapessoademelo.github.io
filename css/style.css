@@ -46,6 +46,7 @@ h1{
   font-size: 92px;
   margin: 0 auto;
   margin-top: 10px;
+
  }
 
  h2 {
@@ -91,8 +92,8 @@ address{
 } */ */
 
 
-p {
-  margin: 0;
+ p {
+    margin: 0;
 }
 
  #wrapper {
@@ -101,7 +102,7 @@ p {
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
-  /* background-color: rgb(16,16,16); */
+  background-color: inherit;
   min-width: 33%
   grid-template-columns: 2fr,4fr;
   grid-gap: 20px;
@@ -129,7 +130,7 @@ p {
   }
 
   .masthead aside img{
-    width: 100%;
+    width: auto;
     /* background: url(image/simba.jpg); */
   }
 
@@ -148,9 +149,9 @@ p {
   }
 
 
-section {
-  float: left;
-  width: 44%;
+ section { */
+  /* float: left; */
+  /* width: 44%; */
   padding: 2%;
 }
 
@@ -159,7 +160,7 @@ article{
   padding: 10px;
 }
 
- /* #container:right { */
+  /* #container:right { */
   /* content: section,h3,h4;
   float: right;
   width: auto;
@@ -167,8 +168,8 @@ article{
   clear: both;
   background-color: #ccc;
   border: 2px;
-  padding: 20px;
-  margin: auto; */
+  padding: 20px; */
+  /* margin: auto; */ */
 }
 
 
@@ -185,7 +186,7 @@ article{
   margin: .5em;
 } */
 
-li{
+/* li{
   list-style-type: none;
   padding-left: 0;
-}
+} */
