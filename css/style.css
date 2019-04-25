@@ -42,7 +42,7 @@ h1{
   position: center;
   /* display: flex; */
   padding: 5%;
-  /* color: rgb(255,255,255); */
+  color: rgb(255,255,255); 
   font-size: 92px;
   margin: 0 auto;
   margin-top: 10px;
@@ -102,7 +102,7 @@ address{
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: inherit;
+  background-color: rgb(16,16,16);
   min-width: 33%
   grid-template-columns: 2fr,4fr;
   grid-gap: 20px;
