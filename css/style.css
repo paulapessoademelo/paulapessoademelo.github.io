@@ -78,10 +78,10 @@ address{
   display: flex;
   justify-content: flex;
   /* background-color: rgba(161,206,239,0.5); */
-  position: relative;
+  /* position: relative; */
   /* background-color: rgb(72,77,79); */
-  image-orientation: flex;
-}
+  /* image-orientation: flex;
+} */
 
 /* main {
   width: 960px;
@@ -130,7 +130,7 @@ address{
   }
 
   .masthead aside img{
-    width: 80%;
+    width: 100%;
     /* background: url(image/simba.jpg); */
   }
 
@@ -149,11 +149,11 @@ address{
   }
 
 
- section { */
+ /* section { */ */
   /* float: left; */
   /* width: 44%; */
-  padding: 2%;
-}
+  /* padding: 2%;
+} */
 
 article{
   background-color: #ccc;
@@ -169,7 +169,7 @@ article{
   background-color: #ccc;
   border: 2px;
   padding: 20px; */
-  /* margin: auto; */ */
+  /* margin: auto; */
 }
 
 
