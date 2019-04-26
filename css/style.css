@@ -86,11 +86,11 @@ p {
 }
 
 .masthead aside img {
-  width: 30%;
+  width: 25%;
+
 }
 
 
-}
 
 footer {
   grid-area: sidebar2;
@@ -128,8 +128,4 @@ a:hover {
 a {
   color: #c79b6b;
   text-decoration: none;
-}
-
-section{
-
 }
