@@ -19,7 +19,7 @@
     "masthead     masthead"
     "sidebar1     content"
     "sidebar2     content";
-    
+
 }
 
 .sidebar1 {
@@ -36,7 +36,7 @@
   margin-right: 40px;
 }
 
-.sidebar1 a: hover {
+.sidebar1 a:hover {
   text-decoration: underline;
   color: #c79b6b;
 }
