@@ -34,6 +34,7 @@
   max-height: 20px;
   margin-top: 30px;
   margin-right: 40px;
+
 }
 
 .sidebar1 a:hover {
@@ -50,9 +51,45 @@
   /* max-height: 100px; */
   margin-left: -100px;
 }
+h3, h4 {
+  /* padding-top: 20px; */
+  color: rgb(110,34,99);
+  line-height: .8;
+  margin: 0;
+  /* font-size: 24px; */
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  /* padding-top: 20px; */
+  line-height: 1.05;
+  margin: 0;
+}
+
+
 
 .content {
   grid-area: content;
+}
+
+
+.masthead {
+  grid-area: masthead;
+}
+
+.masthead aside img {
+  width: 30%;
+}
+
+
 }
 
 footer {
@@ -91,4 +128,8 @@ a:hover {
 a {
   color: #c79b6b;
   text-decoration: none;
+}
+
+section{
+
 }
