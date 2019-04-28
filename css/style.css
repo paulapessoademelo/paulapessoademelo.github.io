@@ -13,7 +13,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat, (3, auto);
   grid-template-areas:
     "masthead     masthead"
@@ -49,6 +49,8 @@
 .sidebar2 {
   grid-area: sidebar2;
   min-height: 100px;
+  height: auto;
+  width: 100%;
   margin-left: -100px;
 }
 
