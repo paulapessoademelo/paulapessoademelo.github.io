@@ -52,11 +52,11 @@
   margin-left: -100px;
 }
 
-#it skills {
+/* #it skills { */
   padding-bottom: 50px;
 }
 
-#it skills ul {
+/* #it skills ul { */
   /* list-style-type: none; */
   padding: 10px 40px;
   text-align: left;
@@ -83,7 +83,7 @@ h4 {
   font-size: 14px;
 }
 
-p {
+/* p { */
   /* padding-top: 20px; */
   line-height: 1.05;
   margin: 0;
@@ -149,6 +149,6 @@ a {
   text-decoration: none;
 }
 
-#about main{
+/* #about main{
   grid-template-columns: 1fr 2fr;
-}
+} */
