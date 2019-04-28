@@ -66,7 +66,7 @@
 
 
 
-h3, h4 {
+/* h3, h4 { */
   /* padding-top: 20px; */
   color: rgb(16,16,16);
   line-height: .8;
@@ -76,11 +76,11 @@ h3, h4 {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 p {
@@ -147,4 +147,8 @@ a:hover {
 a {
   color: #c79b6b;
   text-decoration: none;
+}
+
+#about main{
+  grid-template-columns: 1fr 2fr;
 }
