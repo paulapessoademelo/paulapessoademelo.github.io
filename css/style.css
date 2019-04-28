@@ -13,7 +13,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 200px 1fr;
   grid-template-rows: repeat, (3, auto);
   grid-template-areas:
     "masthead     masthead"
@@ -52,11 +52,11 @@
   margin-left: -100px;
 }
 
-/* #it skills { */
-  padding-bottom: 50px;
-}
+ #it skills {
 
-/* #it skills ul { */
+ }
+
+#it skills ul {
   /* list-style-type: none; */
   padding: 10px 40px;
   text-align: left;
