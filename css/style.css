@@ -34,7 +34,7 @@
   max-height: 20px;
   margin-top: 50px;
   margin-right: 40px;
-
+  margin-bottom: 0px;
 }
 
 .sidebar1 a:hover {
@@ -93,10 +93,12 @@ h4 {
 
 .content {
   grid-area: content;
-  padding-top: 40px;
+  padding-top: 20px;
   /* max-height: 20px; */
   margin-top: 40px;
   margin-right: 40px;
+  width: 100%;
+  height: auto;
 }
 
 
