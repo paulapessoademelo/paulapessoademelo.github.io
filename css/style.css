@@ -180,8 +180,8 @@ footer {
 
  }
 
-  #about-new professional-experience ul li{
-    text-decoration: none; 
+#about-new ul{
+  list-style-type: none;
 
  }
 #about-new .sidebar img{
@@ -189,6 +189,9 @@ footer {
   margin: 0 auto;
   padding-top: 1.5em;
 
+}
+#about-new p{
+  line-height: .8px;
 }
 
 /* #about-new h2,h3,h4,p{ */
