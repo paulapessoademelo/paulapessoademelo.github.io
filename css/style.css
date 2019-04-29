@@ -144,7 +144,7 @@ footer {
 
 }
 
- #about .sidebar{
+#about .sidebar{
 
    padding-right: 20px;
    padding-left: 20px;
@@ -152,10 +152,10 @@ footer {
    color: white;
  }
 
- #about header{
+#about header{
    color: rgb(255,255,255);
  }
- #about nav{
+#about nav{
    color: rgb(255,255,255);
 
  }
@@ -194,8 +194,17 @@ footer {
   line-height: .8px;
 }
 
-/* #about-new h2,h3,h4,p{ */
-  line-height: .8px;
+#about h3 {
+  background-color: black;
+  padding: 5px;
+  color: white;
 }
+
+#edu {
+  margin-left: 40px;
+}
+/* #about-new h2,h3,h4,p{
+  line-height: .8px;
+} */
 
   /* grid-template-columns: 1fr 2fr; */
