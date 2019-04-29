@@ -144,8 +144,55 @@ footer {
 
 }
 
- #about-new .sidebar {
-  /* grid-template-columns: 1fr 2fr; */
-  background-color: rgb(16,16,16,0.5);
-  color: white;
+ #about-new .sidebar{
+
+   padding-right: 20px;
+   padding-left: 20px;
+   background-color: rgb(16,16,16);
+   color: white;
+ }
+
+ #about-new header{
+   color: rgb(255,255,255);
+ }
+ #about-new nav{
+   color: rgb(255,255,255);
+
+ }
+
+ #about-new nav a {
+   display: inline-block;
+   text-decoration: none;
+   color: rgb(255,255,255);
+   /* color: #1a0d00; */
+ }
+
+ a:hover {
+   text-decoration: underline;
+   color: #c79b6b;
+ }
+
+ #about-new .content{
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-right:  20px;
+   margin-left: 20px;
+
+ }
+
+  #about-new professional-experience ul li{
+    text-decoration: none; 
+
+ }
+#about-new .sidebar img{
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 1.5em;
+
 }
+
+/* #about-new h2,h3,h4,p{ */
+  line-height: .8px;
+}
+
+  /* grid-template-columns: 1fr 2fr; */
