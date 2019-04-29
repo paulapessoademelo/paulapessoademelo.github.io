@@ -157,6 +157,12 @@ footer {
  }
 #about nav{
    color: rgb(255,255,255);
+   min-height: 100px;
+   height: auto;
+   width: 100%;
+   margin: 0 auto;
+   margin-left: -30px;
+   margin-top: 450px;
 
  }
 
@@ -167,7 +173,7 @@ footer {
    /* color: #1a0d00; */
  }
 
- a:hover {
+ #about a:hover {
    text-decoration: underline;
    color: #c79b6b;
  }
@@ -194,8 +200,16 @@ footer {
   line-height: .8px;
 }
 
+#about h1{
+  font-size: 36px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
 #about h3 {
-  background-color: black;
+  background-color: rgba(16,16,16,.8);
   padding: 5px;
   color: white;
 }
