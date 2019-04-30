@@ -85,6 +85,36 @@ a {
   text-decoration: none;
 }
 
+.address{
+  font-family: "miller-banner", serif;
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: -40px;
+  text-align: center;
+}
+
+.address a:visited {
+  color: #ccc;
+
+}
+
+.address a:hover{
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+a{
+  color: #c79b6b;
+  text-decoration: none;
+}
+
+
 
 
 .content {
