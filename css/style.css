@@ -134,7 +134,7 @@ h4 {
   width: 100%;
   /* height: auto; */
   margin: 0 auto;
-  
+
 }
 
 
@@ -218,8 +218,15 @@ footer {
 #edu {
   margin-left: 40px;
 }
-/* #about-new h2,h3,h4,p{
-  line-height: .8px;
-} */
 
-  /* grid-template-columns: 1fr 2fr; */
+#contact .content{
+  display: block;
+}
+
+#contact content a:visited {
+  color: rgb(16,16,16);
+
+#contact a:hover{
+  text-decoration: underline;
+  color: #c79b6b;
+}
