@@ -225,8 +225,7 @@ footer {
 
 #contact content a:visited {
   color: rgb(16,16,16);
-
-#contact a:hover{
+/* #contact a:hover { */
   text-decoration: underline;
   color: #c79b6b;
 }
