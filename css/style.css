@@ -6,6 +6,7 @@
   width: 960px;
   margin: 0 auto;
   min-width: 33%;
+  max-height: 550px;
 
 }
 
@@ -119,6 +120,7 @@ a{
   grid-area: content;
   width: 100%;
   margin: 0 auto;
+  
 }
 
 h2{
