@@ -1,0 +1,157 @@
+@media (max-width: 375px){
+body{
+  background-image: none;
+}
+
+  #wrapper{
+    width: 375px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "sidebar"
+    "content";
+    padding: 0;
+
+}
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, auto);
+    grid-template-areas:
+    "sidebar"
+    "content";
+}
+
+.sidebar{
+  grid-area: sidebar;
+  max-height: inherit;
+}
+
+/* header {
+  display: block;
+  grid-area: header;
+  text-align: left;
+  font-family: "Miller Banner", serif;
+  font-weight: 400;
+  color: rgb(16, 16, 16);
+  height: 115px;
+   */
+
+
+/* }
+
+header a:hover {
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+header a:visited {
+  color: black;
+}
+
+nav {
+  grid-area: nav;
+  min-height: 100px;
+  height: auto;
+  width: 100%;
+  margin-left: -45px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+}
+
+nav li {
+  font-family: "miller-banner", serif;
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+  color: rgb(16, 16, 16);
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+  /* color: #1a0d00; */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+a {
+  color: #c79b6b;
+  text-decoration: none;
+}
+
+.address{
+  font-family: "miller-banner", serif;
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+  color: #ccc;
+  font-size: 10px;
+  font-variant-caps: all-small-caps;
+  line-height: 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+.address a:visited {
+  color: #ccc;
+
+}
+
+.address a:hover{
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+a{
+  color: #c79b6b;
+  text-decoration: none;
+}
+
+
+
+
+.content {
+  grid-area: content;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+h3{
+  background-color: rgb(16,16,16);
+  color: rgb(250,250,250);
+
+}
+
+footer {
+  grid-area: footer;
+  color: #ccc;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#about .content li{
+  list-style-type: none;
+  margin-right: 60px;
+  padding: 0;
+  margin-left: -45px;
+  text-align: left;
+
+}
+
+#about .content p{
+  line-height: .8px;
+} */
