@@ -91,11 +91,12 @@ a {
   font-weight: 400;
   display: block;
   color: #ccc;
-  font-size: 16px;
+  font-size: 10px;
+  font-variant-caps: all-small-caps;
   line-height: 1px;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-left: -40px;
+  margin-left: -10px;
   text-align: center;
 }
 
@@ -127,5 +128,6 @@ a{
 footer {
   grid-area: footer;
   color: #ccc;
-
+  width: 960px;
+  margin: 0 auto;
 }
