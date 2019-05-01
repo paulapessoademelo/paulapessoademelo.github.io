@@ -40,11 +40,11 @@ header {
   color: #c79b6b;
 }
 
- header a: visited {
- /* color: rgb(16,16,16); */
+ header a:visited {
+ color: rgb(16,16,16);
  text-decoration: underline;
 
-}
+} 
 
 a:hover {
   text-decoration: underline;
