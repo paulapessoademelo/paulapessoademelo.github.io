@@ -44,7 +44,7 @@ header {
  color: rgb(16,16,16);
  text-decoration: underline;
 
-} 
+}
 
 a:hover {
   text-decoration: underline;
@@ -193,3 +193,81 @@ footer {
   color: rgb(250,250,250);
   padding: 5px;
   margin-left: 6px
+
+  }
+  #about header {
+    display: block;
+    grid-area: header;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+  }
+
+   #about header a:hover {
+    text-decoration: underline;
+    color: #c79b6b;
+  }
+
+   #about header a:visited {
+   color: rgb(16,16,16);
+   text-decoration: underline;
+
+  }
+
+  #about a:hover {
+    text-decoration: underline;
+    color: #c79b6b;
+  }
+
+  #about a {
+    color: #c79b6b;
+    text-decoration: none;
+  }
+
+  #about nav {
+    grid-area: nav;
+    min-height: 100px;
+    height: auto;
+    width: 100%;
+    margin-left: -45px;
+    text-align: left;
+
+  }
+
+  #about nav ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 7px;
+  }
+
+  #about nav li {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    display: block;
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+    margin-top: 0px;
+  }
+
+  #about nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    /* color: #1a0d00; */
+  }
+
+  #about a:hover {
+    text-decoration: underline;
+    color: #c79b6b;
+  }
+
+  #about a {
+    color: #c79b6b;
+    text-decoration: none;
+  }
