@@ -35,13 +35,25 @@ header {
 
 }
 
-header a:hover {
+ header a:hover {
   text-decoration: underline;
   color: #c79b6b;
 }
 
-header a:visited {
-  color: black;
+ header a: visited {
+ /* color: rgb(16,16,16); */
+ text-decoration: underline;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c79b6b;
+}
+
+a {
+  color: #c79b6b;
+  text-decoration: none;
 }
 
 nav {
@@ -127,7 +139,7 @@ a{
 
 h2{
   color: #ccc;
-  font-size: 12px;
+  font-size: 10px;
   position: relative;
   padding-left: 10px;
 }
@@ -145,7 +157,7 @@ footer {
   color: #ccc;
   width: 960px;
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 10px;
 
 }
 #about content{
