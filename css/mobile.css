@@ -9,7 +9,7 @@ body{
     grid-template-areas:
     "sidebar"
     "content";
-    padding: 0;
+    
 
 }
   .grid {
