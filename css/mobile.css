@@ -16,6 +16,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat (3, auto);
+    grid-template-areas: 375px;
     grid-template-areas:
     "sidebar"
     "content";
@@ -91,7 +92,7 @@ a {
 }
 
 .address{
-  font-family: "miller-banner", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: 400;
   display: block;

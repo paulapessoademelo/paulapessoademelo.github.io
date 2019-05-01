@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto|Rajdhani'); */
-@import url("https://use.typekit.net/fkz7lpw.css");
-/* @import url('https://fonts.googleapis.com/css?family=Amatic+SC'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 #wrapper {
   width: 960px;
@@ -14,6 +13,7 @@
   display: grid;
   grid-template-columns: 160px 1fr;
   grid-template-rows: repeat (3, auto);
+  grid-gap: 40px;
   grid-template-areas:
   "sidebar  content";
 }
@@ -26,11 +26,11 @@ header {
   display: block;
   grid-area: header;
   text-align: left;
-  font-family: "Miller Banner", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: rgb(16, 16, 16);
   font-size: 18px;
-  padding-top: 50px;
+  padding-top: 15px;
   padding-bottom: 50px;
 
 }
@@ -50,17 +50,18 @@ nav {
   height: auto;
   width: 100%;
   margin-left: -45px;
+  text-align: left;
 
 }
 
 nav ul {
   list-style-type: none;
-  text-align: center;
-  margin: 0px;
+  text-align: left;
+  margin-left: 7px;
 }
 
 nav li {
-  font-family: "miller-banner", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: 400;
   display: block;
@@ -87,17 +88,17 @@ a {
 }
 
 .address{
-  font-family: "miller-banner", serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: 400;
   display: block;
   color: #ccc;
-  font-size: 10px;
+  font-size: 12px;
   font-variant-caps: all-small-caps;
   line-height: 1px;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-left: -10px;
+  margin-left: -1px;
   text-align: center;
 }
 
@@ -120,19 +121,23 @@ a{
   grid-area: content;
   width: 100%;
   margin: 0 auto;
-  
+  padding-top: 45px;
+
 }
 
 h2{
   color: #ccc;
-  font-size: 16px;
+  font-size: 12px;
   position: relative;
+  padding-left: 10px;
 }
 
 h3{
+  padding-left: 10px;
   background-color: rgb(16,16,16);
   color: rgb(250,250,250);
   padding: 5px;
+  /* margin-left: -10px;  */
 }
 
 footer {
@@ -140,17 +145,40 @@ footer {
   color: #ccc;
   width: 960px;
   margin: 0 auto;
+  font-size: 12px;
+
+}
+#about content{
+  grid-gap: 40px;
+  padding-left: 10px;
 }
 
-#about .content li{
+#about .content ul li{
   list-style-type: none;
   margin-right: 60px;
-  padding: 0;
-  margin-left: -45px;
+  padding: -30px;
+  margin-left: -30px;
   text-align: left;
 
 }
 
 #about .content p{
   line-height: .8px;
+  /* text-align: left; */
+  padding-left: 10px;
+  padding-top: 45px;
 }
+#about h4{
+  color: rgb(16,16,16);
+  font-size: 16px;
+  position: relative;
+  padding-left: 30px;
+  margin-left: -19px;
+}
+
+#about h3{
+  padding-left: 40px;
+  background-color: rgb(16,16,16);
+  color: rgb(250,250,250);
+  padding: 5px;
+  margin-left: 6px;
