@@ -25,7 +25,7 @@ body{
   grid-area: sidebar;
   display: inline;
   max-height: 50%;
-  max-width: 50%; 
+  max-width: 50%;
   margin-left: 150px;
   /* margin-right: -300px; */
 }
@@ -47,7 +47,7 @@ header a:hover {
 }
 
 header a:visited {
-  color: black;
+  color: rgb(16,16,16);
 }
 
 nav {
