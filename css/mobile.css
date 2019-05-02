@@ -62,8 +62,6 @@ nav {
 nav ul {
   list-style-type: none;
   padding-left: 0;
-
-
 }
 
 nav li {
@@ -89,11 +87,6 @@ nav a {
 a:hover {
   text-decoration: underline;
   color: #c79b6b;
-}
-
-a {
-  color: #c79b6b;
-  text-decoration: none;
 }
 
 .address{

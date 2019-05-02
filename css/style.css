@@ -52,11 +52,6 @@ a:hover {
   color: #c79b6b;
 }
 
-a {
-  color: #c79b6b;
-  text-decoration: none;
-}
-
 nav {
   grid-area: nav;
   min-height: 100px;
