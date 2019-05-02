@@ -143,10 +143,10 @@ h3{
 
 footer {
   grid-area: footer;
-  font-size: 100%;
-  /* color: #ccc;
+  color: #ccc;
   width: 960px;
-  margin: 0 auto; */
+  margin: 0 auto;
+  font-size: 10px;
 }
 
 /* #about .content li{
