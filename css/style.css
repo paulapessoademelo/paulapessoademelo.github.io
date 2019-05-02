@@ -29,9 +29,10 @@ header {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: rgb(16,16,16);
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 50px;
+  font-style: bold;
 
 }
 
@@ -74,11 +75,12 @@ nav ul {
 
 nav li {
   font-family: "Montserrat", sans-serif;
-  font-style: italic;
+  font-style: bold;
   font-weight: 400;
   display: block;
   color: rgb(16, 16, 16);
-  font-size: 16px;
+  font-size: 14px;
+  font-variant-caps: all-small-caps;
   margin-top: 0px;
 }
 
@@ -108,10 +110,10 @@ a {
   font-size: 12px;
   font-variant-caps: all-small-caps;
   line-height: 1px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 30px;
   margin-left: -1px;
-  text-align: center;
+  text-align: left;
 }
 
 .address a:visited {
@@ -204,7 +206,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: rgb(16, 16, 16);
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 15px;
     padding-bottom: 50px;
 
@@ -249,12 +251,14 @@ footer {
 
   #about nav li {
     font-family: "Montserrat", sans-serif;
-    font-style: italic;
+    font-style: bold;
     font-weight: 400;
     display: block;
     color: rgb(16, 16, 16);
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 0px;
+    font-variant-caps: all-small-caps
+
   }
 
   #about nav a {
