@@ -1,22 +1,21 @@
-@media (max-width: 375px){
+@media (max-width: 414px){
 body{
   background-image: none;
+  font-size: 18px;
 }
 
-  #wrapper{
-    width: 375px;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "sidebar"
-    "content";
-    
+   #wrapper{
+    border: 0;
+    margin: 0;
+    padding: 10;
+
 
 }
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat (3, auto);
-    grid-template-areas: 375px;
+    grid-template-areas: 414px;
     grid-template-areas:
     "sidebar"
     "content";
@@ -27,18 +26,15 @@ body{
   max-height: inherit;
 }
 
-/* header {
-  display: block;
+ header span {
+  display: inline;
   grid-area: header;
   text-align: left;
   font-family: "Miller Banner", serif;
   font-weight: 400;
   color: rgb(16, 16, 16);
-  height: 115px;
-   */
 
-
-/* }
+}
 
 header a:hover {
   text-decoration: underline;
@@ -60,8 +56,9 @@ nav {
 
 nav ul {
   list-style-type: none;
-  text-align: center;
-  margin: 0px;
+  padding-left: 0;
+
+
 }
 
 nav li {
@@ -70,14 +67,16 @@ nav li {
   font-weight: 400;
   display: block;
   color: rgb(16, 16, 16);
-  font-size: 16px;
-  margin-top: 0px;
+  /* font-size: 16px; */
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 
 nav a {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   color: rgb(16, 16, 16);
+  max-width: 100%;
   /* color: #1a0d00; */
 }
 
@@ -139,9 +138,10 @@ h3{
 
 footer {
   grid-area: footer;
-  color: #ccc;
+  font-size: 100%;
+  /* color: #ccc;
   width: 960px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 #about .content li{
