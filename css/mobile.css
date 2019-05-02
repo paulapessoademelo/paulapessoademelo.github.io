@@ -1,17 +1,17 @@
 @media (max-width: 414px){
 body{
   background-image: none;
-  font-size: 18px;
+  font-size: 12px;
 }
 
-   #wrapper{
+#wrapper{
     border: 0;
     margin: 0;
     padding: 10;
 
 
 }
-  .grid {
+.grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat (3, auto);
@@ -23,16 +23,21 @@ body{
 
 .sidebar{
   grid-area: sidebar;
-  max-height: inherit;
+  display: inline;
+  max-height: 50%;
+  max-width: 50%; 
+  margin-left: 150px;
+  /* margin-right: -300px; */
 }
 
  header span {
   display: inline;
   grid-area: header;
-  text-align: left;
+  /* text-align: left; */
   font-family: "Miller Banner", serif;
   font-weight: 400;
   color: rgb(16, 16, 16);
+  font-size: 12px;
 
 }
 
@@ -50,7 +55,7 @@ nav {
   min-height: 100px;
   height: auto;
   width: 100%;
-  margin-left: -45px;
+  /* margin-left: -45px; */
 
 }
 
@@ -70,6 +75,7 @@ nav li {
   /* font-size: 16px; */
   margin-bottom: 5px;
   margin-right: 5px;
+  margin-left: 100px;
 }
 
 nav a {
@@ -96,13 +102,13 @@ a {
   font-weight: 400;
   display: block;
   color: #ccc;
-  font-size: 10px;
+  /* font-size: 10px; */
   font-variant-caps: all-small-caps;
-  line-height: 1px;
-  padding-top: 50px;
+  /* line-height: 1px; */
+  /* padding-top: 50px;
   padding-bottom: 50px;
   margin-left: -10px;
-  text-align: center;
+  text-align: center; */
 }
 
 .address a:visited {
@@ -121,14 +127,13 @@ a{
 }
 
 
-
-
-.content {
+ .content {
   grid-area: content;
-  width: 100%;
-  margin: 0 auto;
+  display: inline;
+  width: 300px;
 
 }
+
 
 h3{
   background-color: rgb(16,16,16);
@@ -144,15 +149,15 @@ footer {
   margin: 0 auto; */
 }
 
-#about .content li{
+/* #about .content li{
   list-style-type: none;
-  margin-right: 60px;
+  /* margin-right: 60px;
   padding: 0;
   margin-left: -45px;
-  text-align: left;
+  text-align: left; */
 
 }
 
-#about .content p{
+/* #about .content p{
   line-height: .8px;
 } */
